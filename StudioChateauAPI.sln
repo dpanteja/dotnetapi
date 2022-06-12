@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudioChateauAPI", "StudioChateauAPI\StudioChateauAPI.csproj", "{28A91A62-D42B-43E9-9764-6F6E4545A005}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudioChateauProcess", "StudioChateauProcess\StudioChateauProcess.csproj", "{47776B2A-208D-4F73-8868-4391F96F08FB}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "StudioChateauAPISetup", "StudioChateauAPISetup\StudioChateauAPISetup.isproj", "{1EB13846-94D9-4B2D-8213-F4BECB69FFCF}"
+	ProjectSection(ProjectDependencies) = postProject
+		{47776B2A-208D-4F73-8868-4391F96F08FB} = {47776B2A-208D-4F73-8868-4391F96F08FB}
+		{28A91A62-D42B-43E9-9764-6F6E4545A005} = {28A91A62-D42B-43E9-9764-6F6E4545A005}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		CD_ROM|Any CPU = CD_ROM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		DVD-5|Any CPU = DVD-5|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SingleImage|Any CPU = SingleImage|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28A91A62-D42B-43E9-9764-6F6E4545A005}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{28A91A62-D42B-43E9-9764-6F6E4545A005}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{28A91A62-D42B-43E9-9764-6F6E4545A005}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A91A62-D42B-43E9-9764-6F6E4545A005}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A91A62-D42B-43E9-9764-6F6E4545A005}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A91A62-D42B-43E9-9764-6F6E4545A005}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{28A91A62-D42B-43E9-9764-6F6E4545A005}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A91A62-D42B-43E9-9764-6F6E4545A005}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A91A62-D42B-43E9-9764-6F6E4545A005}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{28A91A62-D42B-43E9-9764-6F6E4545A005}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{47776B2A-208D-4F73-8868-4391F96F08FB}.CD_ROM|Any CPU.ActiveCfg = Release|Any CPU
+		{47776B2A-208D-4F73-8868-4391F96F08FB}.CD_ROM|Any CPU.Build.0 = Release|Any CPU
+		{47776B2A-208D-4F73-8868-4391F96F08FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47776B2A-208D-4F73-8868-4391F96F08FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47776B2A-208D-4F73-8868-4391F96F08FB}.DVD-5|Any CPU.ActiveCfg = Debug|Any CPU
+		{47776B2A-208D-4F73-8868-4391F96F08FB}.DVD-5|Any CPU.Build.0 = Debug|Any CPU
+		{47776B2A-208D-4F73-8868-4391F96F08FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47776B2A-208D-4F73-8868-4391F96F08FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47776B2A-208D-4F73-8868-4391F96F08FB}.SingleImage|Any CPU.ActiveCfg = Release|Any CPU
+		{47776B2A-208D-4F73-8868-4391F96F08FB}.SingleImage|Any CPU.Build.0 = Release|Any CPU
+		{1EB13846-94D9-4B2D-8213-F4BECB69FFCF}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{1EB13846-94D9-4B2D-8213-F4BECB69FFCF}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{1EB13846-94D9-4B2D-8213-F4BECB69FFCF}.Debug|Any CPU.ActiveCfg = DVD-5
+		{1EB13846-94D9-4B2D-8213-F4BECB69FFCF}.Debug|Any CPU.Build.0 = DVD-5
+		{1EB13846-94D9-4B2D-8213-F4BECB69FFCF}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{1EB13846-94D9-4B2D-8213-F4BECB69FFCF}.DVD-5|Any CPU.Build.0 = DVD-5
+		{1EB13846-94D9-4B2D-8213-F4BECB69FFCF}.Release|Any CPU.ActiveCfg = SingleImage
+		{1EB13846-94D9-4B2D-8213-F4BECB69FFCF}.Release|Any CPU.Build.0 = SingleImage
+		{1EB13846-94D9-4B2D-8213-F4BECB69FFCF}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{1EB13846-94D9-4B2D-8213-F4BECB69FFCF}.SingleImage|Any CPU.Build.0 = SingleImage
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
